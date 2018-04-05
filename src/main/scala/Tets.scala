@@ -1,0 +1,6 @@
+object Tets {
+
+  def someMerth() ={
+
+  }
+}
