@@ -4,10 +4,10 @@ import akka.util.Timeout
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 
-object TestSystem {
+object SeedMain {
   def main(args: Array[String]): Unit = {
     val system = ActorSystem("test-system")
-    val greeterActor = system.actorOf(Props[TestActor], name = "greeter")
+    val greeterActor = system.actorOf(Props[SeedActor], name = "greeter")
     implicit val timeout = Timeout(5 seconds)
 
 

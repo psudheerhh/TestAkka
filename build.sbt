@@ -1,4 +1,4 @@
-name := "TestProject"
+name := "TestAkka"
 
 version := "1.0.0-SNAPSHOT"
 
